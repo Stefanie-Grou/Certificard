@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400&display=swap");
+
+* {
+  text-decoration: none;
+}
+
+a {
+  color: #1c1b1b;
+}
+
+body {
+  background: linear-gradient(180deg, #a588e8 8%, #6e30fb 92%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-family: "Gothic A1", sans-serif;
+}
+
+header {
+  display: flex;
+  border-bottom: 2px solid #979797;
+}
+
+.tema {
+  margin: auto 40px;
+  display: flex;
+}
+
+.tema button {
+  border-radius: 25px;
+  padding: 8px;
+}
+
+.external {
+  margin: 110px 230px;
+  width: 850px;
+  background: #f3f3f3;
+  mix-blend-mode: normal;
+  box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.61);
+  border-radius: 10px;
+}
+
+.imagem-perfil {
+  border-radius: 300px;
+  height: 130px;
+  border: 3px solid rgba(0, 0, 0, 0.61);
+  margin-left: 20px;
+  margin-top: 20px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.dados-inicial {
+  height: 80px;
+  margin-left: 30px;
+  width: 100%;
+}
+
+.dados-inicial h1 {
+  color: #3e3c3c;
+  margin-bottom: 0;
+}
+
+.dados-inicial h3 {
+  margin: 0;
+  color: #979797;
+}
+
+.dados-inicial p {
+  margin: 0;
+  color: #979797;
+}
+
+.present {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 40px;
+  padding-bottom: 15px;
+  width: 88%;
+}
+
+.imagens-contato {
+  display: flex;
+  margin: 10px 0 0 30px;
+}
+
+.imagens-contato img {
+  filter: grayscale(1);
+  height: 40px;
+  border-radius: 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+main h3 {
+  color: #979797;
+  text-align: center;
+}
+
+main {
+  padding-right: 60px;
+}
+
+li {
+  list-style-type: none;
+  padding-bottom: 5px;
+  padding-left: 3px;
+}
+
+.projetos span {
+  color: #979797;
+}
+
+.group {
+  padding-bottom: 50px;
+}
+
+.dark {
+  color: #e8e8ec;
+  background: #26267f;
+}
+
+.dark .external {
+  background: #14141f;
+  box-shadow: 2px 8px 4px rgba(209, 209, 210, 0.61);
+}
+
+.dark .external h1 {
+  color: #979797;
+}
+
+.dark .imagem-perfil {
+  box-shadow: 2px 4px 4px rgba(209, 209, 210, 0.61);
+}
+
+.dark .tema button {
+  border: 2px solid #e8e8ec;
+  color: #e8e8ec;
+  background: #14141f;
+}
